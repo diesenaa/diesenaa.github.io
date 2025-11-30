@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pupsNachten2o25®</title>
+    <link rel="stylesheet" href="style222.css">
+</head>
+
+<body>
+
+
+    <!-- Lauf-Logo -->
+    <div class="floating-text">pupsNachten2o25®</div>
+
+    <!-- Hintergrundbilder -->
+    <img src="39.png" alt="Hintergrund" class="Hinter">
+    <img src="postbote.PNG" alt="Laufender Fisch" class="fish" width="300" height="300">
+    <img src="angel.gif" alt="CD" class="CD">
+    <img src="bär.png" alt="bär" class="bär">
+    <img src="sticker2.png" alt="sticker2" class="sticker2">
+    <img src="sticker3.png" alt="sticker3" class="sticker3">
+    <img src="sticker5.png" alt="sticker5" class="sticker5">
+    <img src="sticker6.png" alt="sticker6" class="sticker6">
+
+
+
+    <!-- Zurück-Button -->
+    <a href="index.html" class="zurück-button">zurück</a>
+
+    <!-- Popup Fenster für Passwort -->
+    <div id="popup-window" class="popup-hidden">
+        <div class="popup-titlebar">
+            <span id="popup-title"></span>
+            <button id="popup-close">X</button>
+        </div>
+        <div id="popup-content"></div>
+    </div>
+
+    <!-- Fenster für gesperrte Türchen -->
+    <div id="locked-window" class="popup-hidden">
+        <div class="popup-titlebar">
+            <span>Info</span>
+            <button id="locked-close">X</button>
+        </div>
+        <div id="locked-content"></div>
+    </div>
+
+    <!-- Haupt-Container für Tabs -->
+    <div class="main-container">
+
+        <!-- Sidebar / Tabs -->
+        <div class="sidebar">
+            <button class="tab active" data-tab="menü">Menü</button>
+            <button class="tab" data-tab="pupstore1">PupsTore 1</button>
+            <button class="tab" data-tab="pupstore2">PupsTore 2</button>
+            <button class="tab" data-tab="pupstore3">PupsTore 3</button>
+            <button class="tab" data-tab="pupstore4">PupsTore 4</button>
+        </div>
+
+        <!-- Menü-Tab -->
+        <div class="tab-content active" id="menü">
+            <div id="menü-container">
+                <div id="menü">
+                    <h3>✧･ﾟ: Willkommen im pupsNachten2o25®! :･ﾟ✧</h3>
+                    <ul> <br>
+                        <li>Deinem Mini-Herzens-Adventskalender voller Liebe, Chaos & pupsweicher Gefühle (｡•̀ᴗ-)✧</li>
+                    </ul> <br> <br>
+                    <h4>How to Pupsnachten1o25®</h4>
+                    <ul> <br>
+                        <li>⊹ Suche im Seitentab nach deinem ganz persönlichen CodeNamen, den ich dir gegeben habe ✦. ✿.
+                        </li> <br>
+                        <li>⊹ Klicke drauf – jetzt öffnet sich die Sicherheitskontrolle (sehr geheim, sehr wichtig, sehr
+                            pupsig) (✧ω✧).</li> <br>
+                        <li>⊹ Gib dort dein Passwort ein, damit du offiziell in den Pupsnachten-Modus eintreten
+                            darfst✧*。</li> <br>
+                        <li>⊹Jeden Tag um 00:00 Uhr wird automatisch das nächste PupsTor aufgeschlossen. ☆彡.</li> <br>
+                        <li>⊹ Hinter jedem Tor stecken mal eine Botschaft, mal liebesbriefe, oder manchmal nur Pups… Wer
+                            weiß.⊹ Alles streng geheim und streng süß. =≡Σ((( つ＞＜)つ.</li> <br>
+                        <li>⊹ Lass dich also jeden Tag einmal „anpupsen“!✩✩✩</li> <br>
+                        <li>⊹ Bis zum 24. Dezember begleitet ich dich dann jeden Tag für einen klitze kleinen Moment✧˖°.
+                            ✿✧*.</li>
+                    </ul> <br> <br> <br>
+                    <h4>｡ﾟ☆: ...auf das sich die pupsTore öffnen happy pupsNachten2o25®! ✧･ﾟ</h4>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Pupstore Tabs -->
+        <div class="tab-content store-content" id="pupstore1">
+            <div class="store-container">
+                <h3>✧･ﾟ: PupsTore von Ela:･ﾟ✧</h3>
+                <div class="grid-container" id="pupstore1-grid"></div>
+            </div>
+        </div>
+
+        <div class="tab-content store-content" id="pupstore2">
+            <div class="store-container">
+                <h3>✧･ﾟ: PupsTore von Mama:･ﾟ✧</h3>
+                <div class="grid-container" id="pupstore2-grid"></div>
+            </div>
+        </div>
+
+        <div class="tab-content store-content" id="pupstore3">
+            <div class="store-container">
+                <h3>✧･ﾟ: PupsTore von Baba :･ﾟ✧</h3>
+                <div class="grid-container" id="pupstore3-grid"></div>
+            </div>
+        </div>
+
+        <div class="tab-content store-content" id="pupstore4">
+            <div class="store-container">
+                <h3>✧･ﾟ: PupsTore von Abi :･ﾟ✧</h3>
+                <div class="grid-container" id="pupstore4-grid"></div>
+            </div>
+        </div>
+
+        <script src="pupsnacht.js"></script>
+</body>
+
+</html>
